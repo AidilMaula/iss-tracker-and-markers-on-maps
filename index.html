@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #details {
+            position: fixed;
+            height: 200px;
+            background: #tranparent;
+            color: #f5f6fa;
+            padding-left: 20px;
+            top:50px;
+        }
+
+        #details .title {
+            color: #dcdde1;
+            font-size: small;
+        }
+
+        #locate {
+            position: fixed;
+            left: 20px;
+            top: 10px;
+        }
+
+        .marker {
+        background-image: url("https://cdn3.iconfinder.com/data/icons/facebook-ui-flat/48/Facebook_UI-07-512.png");
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        }
+
+        .mapboxgl-popup {
+        max-width: 200px;
+        }
+
+        .mapboxgl-popup-content {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+<button id="locate">Locate  </button>
+<div id="details"></div>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+<script src="src/js/main.js"></script>
+<script src="src/js/sketch.js"></script>
+
+</body>
+</html>
