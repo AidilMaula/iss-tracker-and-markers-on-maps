@@ -3,24 +3,24 @@ iss tracker and markers on maps
 
 Installation
 
-install dependencies
+1.install dependencies
 ```
 npm install
 ```
 
-install the generator of vue-cli-plugin-electron-builder
+2.install the generator of vue-cli-plugin-electron-builder
 ```
 vue add electron-builder
 ```
 
-add firebase package
+3.add firebase package
 ```
 npm install --save-firebase
 ```
 
-then add firebase key in main.js
+4.then add firebase key in main.js
 
-start electron
+5.start electron
 ```
 npm run electron:serve
 ```
