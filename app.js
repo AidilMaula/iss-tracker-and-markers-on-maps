@@ -1,7 +1,3 @@
-/**
- * An express application which serves root route and provides an API to get current ISS coordinates in GeoJSON format.
- */
-
 var request = require('request'),
     geojson = require('geojson'),
     express = require('express'),
